@@ -1,0 +1,2 @@
+# xinmang.github.io
+blog
