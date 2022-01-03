@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>笔记的MarkMap</title>
+    <base target="_blank">
     <link href="https://markmap.js.org/favicon.png" rel="icon" type="image/png" />
     <style>
         html,
@@ -39,7 +40,7 @@
         };
 
         //process searchparams and get string
-/*        async function main() {
+        async function main() {
             const url = new URL(document.location);
             let text = "", mdLinkPrefix = url.searchParams.get("base");
             if (url.searchParams.has("str")) {
@@ -53,6 +54,7 @@
                 //need Help: support fetch resources from different site
                 const res = await fetch(req);
                 text = await res.text();
+/****
                 if (!mdLinkPrefix) {
                     const mdFolder = reqUrl.pathname.substring(
                         0,
@@ -61,10 +63,12 @@
                     url.searchParams.set("md", reqUrl.origin + mdFolder);
                     mdLinkPrefix = url.toString();
                 }
+****/
             }
             renderMap(text, mdLinkPrefix);
         }
-        main().catch((e) => console.error(e));    */
+        main().catch((e) => console.error(e));
+
     </script>
 </body>
 
