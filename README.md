@@ -11,7 +11,7 @@
 
 
 ## self-hosted
-- [uptime](http://1.14.98.78:3001/)
+- [uptime](http://up.xingmang.net/)
 - [云监控](http://1.14.98.78/)
 - [定时任务 - 控制面板](https://jdadmin.xingmang.net/crontab)
 - [VaultWarden](https://vw.xingmang.net)
